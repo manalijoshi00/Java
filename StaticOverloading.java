@@ -10,8 +10,9 @@ class StaticOverloading
     }
     public static void main(String args[]) 
     {
-        Example.display("Prajali"); 
-        Example.display("Prajali,Good Afternoon"); 
+        StaticOverloading s = new StaticOverloading();
+        s.display("Prajali"); 
+        s.display("Prajali,Good Afternoon"); 
     }
     
 }
