@@ -1,17 +1,17 @@
 public class MutableExample 
 {
-     private String name;
-     MutableExample(String name) 
+     private String s;
+     MutableExample(String s) 
      {
-        this.name = name;
+        this.s = s;
      }
      public String getName() 
      {
-           return name;
+           return s;
      }
      public void setName(String name) 
      {
-           this.name = name;
+           this.s = name;
      }
      public static void main(String[] args) 
      {
